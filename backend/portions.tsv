@@ -1,0 +1,923 @@
+Code	FOOD ITEM	REFERENCE PORTION	Portion in grams
+1.1	White Bread: Arabic/Iranian bread/Pita or Lebanese/ baguette/Toast  		
+		1 small baguette	30.00
+		1 toast	30.00
+		¼ Arabic bread	30.00
+1.1.1	White Bread (homemade) : Arabic/Iranian bread/Pita or Lebanese/ baguette/Toast  		
+		1 small baguette	30.00
+		1 toast	30.00
+		¼ Arabic bread	30.00
+1.2	Brown bread: Arabic/Iranian bread/Pita or Lebanese/ baguette/Toast  		
+		1 small baguette	30.00
+		1 toast	30.00
+		¼ Arabic bread	30.00
+1.2.1	Brown bread (Homemade) : Arabic/Iranian bread/Pita or Lebanese/ baguette/Toast  		
+		1 small baguette	30.00
+		1 toast	30.00
+		¼ Arabic bread	30.00
+1.3	Chapati or Paratha		
+		Small chapati	30.00
+		¼ Indian paratha	30.00
+1.4	Other products (crackers/biscuits/ Baqsam/pretzel/kaak)	 	
+		1 ounce of crackers	30.00
+		7 crackers	30.00
+		1 biscuit	30.00
+1.5	White rice	Side A (Rice, density= 0.72)	
+		1 Cup of rice	180.00
+		A1 (Rice)	3.45
+		A2 (Rice)	10.35
+		A3 (Rice)	12.35
+		A4 (Rice)	62.09
+		A5 (Rice)	72.43
+		A6 (Rice)	186.26
+		A7 (Rice)	31.04
+		A8 (Rice)	227.65
+		A9 (Rice) 	248.35
+		A10 (Rice)	124.17
+		A11 (Rice)	124.17
+		A12 (Rice)	51.74
+		A13 (Rice)	248.35
+		A14 (Rice)	370.86
+		A15 (Rice)	331.13
+1.6	Brown rice/Burghul/freekeh 	Side A (Burghul/ Freekeh, density= 0.72)	
+		1 Cup of Burghul/Freekeh	180.00
+		A1 (Burghul/Freekeh)	3.45
+		A2 (Burghul/Freekeh)	10.35
+		A3 (Burghul/Freekeh)	12.35
+		A4 (Burghul/Freekeh)	62.09
+		A5 (Burghul/Freekeh)	72.43
+		A6 (Burghul/Freekeh)	186.26
+		A7 (Burghul/Freekeh)	31.04
+		A8 (Burghul/Freekeh)	227.65
+		A9 (Burghul/Freekeh) 	248.35
+		A10 (Burghul/Freekeh)	124.17
+		A11 (Burghul/Freekeh)	124.17
+		A12 (Burghul/Freekeh)	51.74
+		A13 (Burghul/Freekeh)	248.35
+		A14 (Burghul/Freekeh)	370.86
+		A15 (Burghul/Freekeh)	331.13
+1.7	Pasta/Noodles (Prepared at home)	Side A (Pasta/ Noodles, density= 0.72)	
+		1 Cup of Pasta/Noodles	180.00
+		A1 (Pasta/Noodles)	3.45
+		A2 (Pasta/Noodles)	10.35
+		A3 (Pasta/Noodles)	12.35
+		A4 (Pasta/Noodles)	62.09
+		A5 (Pasta/Noodles)	72.43
+		A6 (Pasta/Noodles)	186.26
+		A7 (Pasta/Noodles)	31.04
+		A8 (Pasta/Noodles)	227.65
+		A9 (Pasta/Noodles) 	248.35
+		A10 (Pasta/Noodles)	124.17
+		A11 (Pasta/Noodles)	124.17
+		A12 (Pasta/Noodles)	51.74
+		A13 (Pasta/Noodles)	248.35
+		A14 (Pasta/Noodles)	370.86
+		A15 (Pasta/Noodles)	331.13
+1.7.1	Pasta/Noodles (Instant)	Side A (Pasta/ Noodles, density= 0.72)	
+		1 Cup of Pasta/Noodles	180.00
+		A1 (Pasta/Noodles)	3.45
+		A2 (Pasta/Noodles)	10.35
+		A3 (Pasta/Noodles)	12.35
+		A4 (Pasta/Noodles)	62.09
+		A5 (Pasta/Noodles)	72.43
+		A6 (Pasta/Noodles)	186.26
+		A7 (Pasta/Noodles)	31.04
+		A8 (Pasta/Noodles)	227.65
+		A9 (Pasta/Noodles) 	248.35
+		A10 (Pasta/Noodles)	124.17
+		A11 (Pasta/Noodles)	124.17
+		A12 (Pasta/Noodles)	51.74
+		A13 (Pasta/Noodles)	248.35
+		A14 (Pasta/Noodles)	370.86
+		A15 (Pasta/Noodles)	331.13
+1.8	Breakfast cereals (Bran flakes)/ Oats	Side A ( Density= 0.13 g/mL)	
+		A1 (Breakfast oats/Cereals)	0.61
+		A2 (Breakfast oats/Cereals)	1.84
+		A3 (Breakfast oats/Cereals)	3.84
+		A4 (Breakfast oats/Cereals)	11.06
+		A5 (Breakfast oats/Cereals)	12.90
+		A6 (Breakfast oats/Cereals)	33.17
+		A7 (Breakfast oats/Cereals)	5.53
+		A8 (Breakfast oats/Cereals)	40.54
+		A9 (Breakfast oats/Cereals)	44.23
+		A10 (Breakfast oats/Cereals)	22.11
+		A11 (Breakfast oats/Cereals)	22.11
+		A12 (Breakfast oats/Cereals)	9.21
+		A13 (Breakfast oats/Cereals)	44.23
+		A14 (Breakfast oats/Cereals)	66.04
+		A15 (Breakfast oats/Cereals)	58.97
+		A16 (Breakfast oats/Cereals)	22.11
+1.9	Breakfast cereals ( sugary)	Side A 	
+		A1 (Breakfast Cereals, Sugary)	0.52
+		A2 (Breakfast Cereals, Sugary)	1.56
+		A3 (Breakfast Cereals, Sugary)	3.56
+		A4 (Breakfast Cereals, Sugary)	9.36
+		A5 (Breakfast Cereals, Sugary)	10.91
+		A6 (Breakfast Cereals, Sugary)	28.07
+		A7 (Breakfast Cereals, Sugary)	4.68
+		A8 (Breakfast Cereals, Sugary)	34.30
+		A9 (Breakfast Cereals, Sugary)	37.42
+		A10 (Breakfast Cereals, Sugary)	18.71
+		A11 (Breakfast Cereals, Sugary)	18.71
+		A12 (Breakfast Cereals, Sugary)	7.80
+		A13 (Breakfast Cereals, Sugary)	37.42
+		A14 (Breakfast Cereals, Sugary)	55.88
+		A15 (Breakfast Cereals, Sugary)	49.90
+		A16 (Breakfast Cereals, Sugary)	18.71
+1.10	Fatayer (zaatar, cheese, spinach, meat)-baked	1 small or side B	
+		1 Small Fatayer (B3)	47.00
+		1 Medium Fatayer (B4)	75.00
+		1 Large Fatayer (B5)	100.00
+1.11	Sambosek, samosa, spring roll, cheese roll-fried 	1 small sambosek	
+		1 small sambosek/Springroll, mozarella stick	30.00
+1.12	Pizza (restaurants, homemade)	Side A or B/ 1 small piece	
+		1 slice, small pizza, thin crust	23.00
+		1 slice, small pizza, normal Crust	34.00
+		1 slice, medium pizza, thin crust	42.76
+		1 slice, medium pizza, normal Crust	64.00
+		1 slice, large pizza, thin crust	60.00
+		1 slice, large pizza, normal Crust	89.00
+1.12.1	Pizza (Frozen, ready to eat)	Side A or B/ 1 small piece	
+		1 slice, small pizza, thin crust	23.00
+		1 slice, small pizza, normal Crust	34.00
+		1 slice, medium pizza, thin crust	42.76
+		1 slice, medium pizza, normal Crust	64.00
+		1 slice, large pizza, thin crust	60.00
+		1 slice, large pizza, normal Crust	89.00
+2.1	Vegetables, canned (mixed)	Side A (Vegetables, canned, Density= 0.7)	
+		A1 (Vegetables, canned)	3.31
+		A2 (Vegetables, canned)	7.12
+		A3 (Vegetables, canned)	9.11
+		A4 (Vegetables, canned)	59.54
+		A5 (Vegetables, canned)	69.46
+		A6 (Vegetables, canned)	178.61
+		A7 (Vegetables, canned)	29.77
+		A8 (Vegetables, canned)	218.30
+		A9 (Vegetables, canned)	238.14
+		A10 (Vegetables, canned)	119.07
+		A11 (Vegetables, canned)	119.07
+		A12 (Vegetables, canned)	49.61
+		A13 (Vegetables, canned)	238.14
+		A14 (Vegetables, canned)	355.62
+		A15 (Vegetables, canned)	317.52
+		A16 (Vegetables, canned)	119.07
+2.2	Vegetables, raw, cooked, frozen	Side A (Vegetables, raw, cooked, Density= 0.6)	
+		A1 (Vegetables, raw, cooked, frozen)	2.84
+		A2 (Vegetables, raw, cooked, frozen)	6.11
+		A3 (Vegetables, raw, cooked, frozen)	9.11
+		A4 (Vegetables, raw, cooked, frozen)	51.03
+		A5 (Vegetables, raw, cooked, frozen)	59.54
+		A6 (Vegetables, raw, cooked, frozen)	153.09
+		A7 (Vegetables, raw, cooked, frozen)	25.52
+		A8 (Vegetables, raw, cooked, frozen)	187.11
+		A9 (Vegetables, raw, cooked, frozen)	204.12
+		A10 (Vegetables, raw, cooked, frozen)	102.06
+		A11 (Vegetables, raw, cooked, frozen)	102.06
+		A12 (Vegetables, raw, cooked, frozen)	42.53
+		A13 (Vegetables, raw, cooked, frozen)	204.12
+		A14 (Vegetables, raw, cooked, frozen)	304.82
+		A15 (Vegetables, raw, cooked, frozen)	272.16
+		A16 (Vegetables, raw, cooked, frozen)	102.06
+2.3	Salad, green 	Side A (Vegetables, green, density=.15)	
+		A1 (Vegetables, green)	0.71
+		A2 (Vegetables, green)	2.13
+		A3 (Vegetables, green)	2.13
+		A4 (Vegetables, green)	12.76
+		A5 (Vegetables, green )	14.88
+		A6 (Vegetables, green)	38.27
+		A7 (Vegetables, green)	6.38
+		A8 (Vegetables, green)	46.78
+		A9 (Vegetables, green)	51.03
+		A10 (Vegetables, green)	25.52
+		A11 (Vegetables, green)	25.52
+		A12 (Vegetables, green)	10.63
+		A13 (Vegetables, green)	51.03
+		A14 (Vegetables,green)	76.20
+		A15 (Vegetables, green)	68.04
+		A16 (Vegetables, green)	25.52
+3.1	French Fries	Side A (French Fries, density= 0.3)	
+		A1 (French Fries)	1.42
+		A2 (French Fries)	3.05
+		A3 (French Fries)	4.55
+		A4 (French Fries)	25.52
+		A5 (French Fries)	29.77
+		A6 (French Fries)	76.55
+		A7 (French Fries)	12.76
+		A8 (French Fries)	93.56
+		A9 (French Fries)	102.06
+		A10 (French Fries)	51.03
+		A11 (French Fries)	51.03
+		A12 (French Fries)	21.26
+		A13 (French Fries)	102.06
+		A14 (French Fries)	152.41
+		A15 (French Fries)	136.08
+		A16 (French Fries)	51.03
+3.2	Potato 	1 Medium Potato	
+		1 Medium Potato 	286.00
+3.3	Potato chips (bag chips)- all kind of chips 	Small bag / One ounce or 18 chips	
+		Potato chips / Tortilla, Extra small/ 1cup	25.00
+		Potato chips / Tortilla, Small	50.00
+		Potato chips / Tortilla, Medium	90.00
+		Potato chips / Tortilla, Large	150.00
+		Potato chips / Tortilla, Extra Large	240.00
+4.1	Fresh fruits or frozen	Side A/ 1 medium portion	
+		1 Medium fruit, fresh/ frozen	150.00
+		4 pieces medium strawberries	50.00
+		10 pieces grapes	84.00
+4.2	Dried fruits (dates, figs, apricot, prunes)	Side A	
+		3 Pieces of Dates	30.00
+		A1 (dried fruits)	4.73
+		A2 (dried fruits)	10.18
+		A3 (dried fruits)	15.18
+		A4 (dried fruits)	85.05
+		A5 (dried fruits)	99.23
+		A6 (dried fruits)	255.15
+		A7 (dried fruits)	42.53
+		A8 (dried fruits)	311.85
+		A9 (dried fruits)	340.20
+		A10 (dried fruits)	170.10
+		A11 (dried fruits)	170.10
+		A12 (dried fruits)	70.88
+		A13 (dried fruits)	340.20
+		A14 (dried fruits)	508.03
+		A15 (dried fruits)	453.60
+		A16 (dried fruits)	170.10
+		A17 (dried fruits)	113.40
+		A18 (dried fruits)	178.04
+4.3	Fresh fruit juice 	Side A (Fresh fruit juice)	
+		A4 (Fresh fruit juice)	93.56
+		A5 (Fresh fruit juice)	109.15
+		A6 (Fresh fruit juice)	280.67
+		A7 (Fresh fruit juice)	46.78
+		A8 (Fresh fruit juice)	343.04
+		A9 (Fresh fruit juice)	374.22
+		A10 (Fresh fruit juice)	187.11
+4.4	Fruit based dessert (cocktails)	Side A (Fruit based dessert/ cocktails)	
+		A1 (Fruit based dessert/ cocktails)	5.20
+		A2 (Fruit based dessert/ cocktails)	11.19
+		A3 (Fruit based dessert/ cocktails)	16.69
+		A4 (Fruit based dessert/ cocktails)	93.56
+		A5  (Fruit based dessert/ cocktails)	109.15
+		A6  (Fruit based dessert/ cocktails)	280.67
+		A7  (Fruit based dessert/ cocktails)	46.78
+		A8  (Fruit based dessert/ cocktails)	343.04
+		A9  (Fruit based dessert/ cocktails)	374.22
+		A10  (Fruit based dessert/ cocktails)	187.11
+		A11 (Fruit based dessert/ cocktails)	187.11
+		A15 (Fruit based dessert/ cocktails)	498.96
+5.1	Full fat milk	Side A (Milk, Full fat, density= 1.02)	
+		A1 (Milk, Full fat)	4.82
+		A2 (Milk, Full fat)	10.38
+		A3 (Milk, Full fat)	15.48
+		A4 (Milk, Full fat)	86.75
+		A5 (Milk, Full fat)	101.21
+		A6 (Milk, Full fat)	260.25
+		A7 (Milk, Full fat)	43.38
+		A8 (Milk, Full fat)	318.09
+		A9 (Milk, Full fat)	347.00
+		A10 (Milk, Full fat)	173.50
+		A11 (Milk, Full fat)	173.50
+		A12 (Milk, Full fat)	72.29
+		A13 (Milk, Full fat)	347.00
+		A14 (Milk, Full fat)	518.19
+		A15 (Milk, Full fat)	462.67
+		A16 (Milk, Full fat)	173.50
+5.2	Low fat milk	Side A (Milk,low fat, density= 1.02)	
+		A1 (Milk, low fat)	4.82
+		A2 (Milk, low fat)	10.38
+		A3 (Milk, low fat)	15.48
+		A4 (Milk, low fat)	86.75
+		A5 (Milk, low fat)	101.21
+		A6 (Milk, low fat)	260.25
+		A7 (Milk, low fat)	43.38
+		A8 (Milk, low fat)	318.09
+		A9 (Milk, low fat)	347.00
+		A10 (Milk, low fat)	173.50
+		A11 (Milk, low fat)	173.50
+		A12 (Milk, low fat)	72.29
+		A13 (Milk, low fat)	347.00
+		A14 (Milk, low fat)	518.19
+		A15 (Milk, low fat)	462.67
+		A16 (Milk, low fat)	173.50
+5.3	Non-dairy alternative (soya, oat, almond milk)	Side A (non-dairy alternative, density=1.02)	
+		A1 (non-dairy alternative)	4.82
+		A2 (non-dairy alternative)	10.38
+		A3 (non-dairy alternative)	15.48
+		A4 (non-dairy alternative)	86.75
+		A5(non-dairy alternative)	101.21
+		A6 (non-dairy alternative)	260.25
+		A7 (non-dairy alternative)	43.38
+		A8 (non-dairy alternative)	318.09
+		A9 (non-dairy alternative)	347.00
+		A10 (non-dairy alternative)	173.50
+		A11 (non-dairy alternative)	173.50
+		A12 (non-dairy alternative)	72.29
+		A13 (non-dairy alternative)	347.00
+		A14 (non-dairy alternative)	518.19
+		A15 (non-dairy alternative)	462.67
+		A16 (non-dairy alternative)	173.50
+5.4	 Yogurt (plain) (zabadi/robe)	Side A yoghurt or 1 small container (170-200ml)	
+		I yoghurt small container	180.00
+		A1 (Yogurt,Plain)	4.91
+		A2 (Yogurt,Plain)	10.58
+		A3 (Yogurt,Plain)	15.78
+		A4 (Yogurt,Plain)	88.45
+		A5 (Yogurt,Plain)	103.19
+		A6 (Yogurt,Plain)	265.36
+		A7 (Yogurt,Plain)	44.23
+		A8 (Yogurt,Plain)	324.32
+		A9 (Yogurt,Plain)	353.81
+		A10 (Yogurt,Plain)	176.90
+		A11 (Yogurt,Plain)	176.90
+		A12 (Yogurt,Plain)	73.71
+		A13 (Yogurt,Plain)	353.81
+		A14 (Yogurt,Plain)	528.35
+		A15 (Yogurt,Plain)	471.74
+5.6	Ayran /Laban (drinkable) 	Side A/ 1 small bottle (200ml)	
+		1 Small bottle ayran/laban/Shaninah	200.00
+		A1 (Ayran/Laban/Shaninah)	4.82
+		A2 (Ayran/Laban/Shaninah)	10.38
+		A3 (Ayran/Laban/Shaninah)	15.48
+		A4 (Ayran/Laban/Shaninah)	86.75
+		A5 (Ayran/Laban/Shaninah)	101.21
+		A6 (Ayran/Laban/Shaninah)	260.25
+		A7 (Ayran/Laban/Shaninah)	43.38
+		A8 (Ayran/Laban/Shaninah)	318.09
+		A9 (Ayran/Laban/Shaninah)	347.00
+		A10 (Ayran/Laban/Shaninah)	173.50
+		A11 (Ayran/Laban/Shaninah)	173.50
+		A12 (Ayran/Laban/Shaninah)	72.29
+		A13 (Ayran/Laban/Shaninah)	347.00
+		A14 (Ayran/Laban/Shaninah)	518.19
+		A15 (Ayran/Laban/Shaninah)	462.67
+		A16 (Ayran/Laban/Shaninah)	173.50
+5.7	Yogurt (flavored)	Side A or 1 small container (170-200ml)	
+		1 small container (yogurt, flavored)	180.00
+		A1 (yogurt, flavored)	4.91
+		A2 (yogurt, flavored)	10.58
+		A3 (yogurt, flavored)	15.78
+		A4 (yogurt, flavored)	88.45
+		A5 (yogurt, flavored)	103.19
+		A6 (yogurt, flavored)	265.36
+		A7 (yogurt, flavored)	44.23
+		A8 (yogurt, flavored)	324.32
+		A9 (yogurt, flavored)	353.81
+		A10 (yogurt, flavored)	176.90
+		A11 (yogurt, flavored)	176.90
+		A12 (yogurt, flavored)	73.71
+		A13 (yogurt, flavored)	353.81
+		A14 (yogurt, flavored)	528.35
+		A15 (yogurt, flavored)	471.74
+5.8	Labneh	Side A (Labaneh, density= 1.15)	
+		A1 (Labaneh)	5.43
+		A2 (Labaneh)	11.70
+		A3 (Labaneh)	17.45
+		A4 (Labaneh)	97.81
+		A5 (Labaneh)	114.11
+		A6 (Labaneh)	293.42
+		A7 (Labaneh)	48.90
+		A8 (Labaneh)	358.63
+		A9 (Labaneh)	391.23
+		A10 (Labaneh)	195.62
+		A11 (Labaneh)	195.62
+		A12 (Labaneh)	81.51
+		A13 (Labaneh)	391.23
+		A14 (Labaneh)	584.24
+		A15 (Labaneh)	521.64
+		A16 (Labaneh)	195.62
+5.9	White cheese 	1 square/ Side A or B	
+		1 square (white cheese)	30.00
+5.10	Cheese (yellow/hard and processed)	1square/triangular portion/ Side A or B	
+		1square/triangular (yellow cheese/hard and processed)	30.00
+6.1	Beef	Side B (Beef, edible portion, cooked, minced, pieces)	
+		B1,5 /6 (2 small cube beef)	39.27
+		B2, 5 / 6 (beef, cooked) 	88.36
+		B3, 5/6 (beef, cooked) 	113.49
+		B4, 5/6(beef, cooked) 	173.18
+		B5, 5/6 (beef, cooked) 	265.46
+		B1, 3/4 (beef, cooked) 	19.63
+		B2, 3/4 (beef, cooked) 	44.18
+		B3, 3/4 (beef, cooked) 	56.75
+		B4, 3/4 (beef, cooked) 	86.59
+		B5, 3/4 (beef, cooked) 	132.73
+6.2	Lamb 	Side B (lamb, cooked)	
+		B1,5 /6 (lamb, cooked)	39.27
+		B2, 5 / 6 (lamb, cooked)	88.36
+		B3, 5/6 (lamb, cooked)	113.49
+		B4, 5/6 (lamb, cooked)	173.18
+		B5, 5/6 (lamb, cooked) 	265.46
+		B1, 3/4 (lamb, cooked)	19.63
+		B2, 3/4 (lamb, cooked)	44.18
+		B3, 3/4 (lamb, cooked)	56.75
+		B4, 3/4 (lamb, cooked)	86.59
+		B5, 3/4 (lamb, cooked)	132.73
+6.3	Poultry	Side B	
+		Chicken Breast 	120.00
+		Chicken Thigh	100.00
+		B1,5 /6 (chicken, cooked)	39.27
+		B2, 5 / 6 (chicken, cooked)	88.36
+		B3, 5/6 (chicken, cooked)	113.49
+		B4, 5/6 (chicken, cooked)	173.18
+		B5, 5/6 (chicken, cooked) 	265.46
+		B1, 3/4 (chicken, cooked)	19.63
+		B2, 3/4 (chicken, cooked)	44.18
+		B3, 3/4 (chicken, cooked)	56.75
+		B4, 3/4 (chicken, cooked)	86.59
+		B5, 3/4 (chicken, cooked)	132.73
+6.4	Fried Chicken	Nuggets/ Side B	
+		1 piece nugget 	18.00
+		chicken strip (Medium, side B2)	40.00
+		Fried chicken (breast)	150.00
+		Fried chicken (thigh)	100.00
+6.5	Egg 	1 egg	
+		1 egg	50.00
+6.6	Burger	1 medium size	
+		1 burger (small size, slider)	80.00
+		1 burger (Medium size)	150.00
+6.7	Offal/Organ meat (liver, heart, brain, etc.)	Side B	
+6.8	Processed meat (hot dog/ salami/ mortadella)	Side B/ Hotdog size/Regular cured meat slice/	
+		1 slice turkey/mortadella (regular slice) 	20.00
+		1 sausage (small size)	12.00
+		1 sausage (medium size, hotdog) 	25.00
+7.1	Fish Grilled/Boiled/Canned/Raw 	Side B (Grilled/boiled/canned, cooked)	
+		B1,5 /6 (Grilled/boiled/canned, cooked)	39.27
+		B2, 5 / 6 (Grilled/boiled/canned, cooked)	88.36
+		B3, 5/6 (Grilled/boiled/canned, cooked)	113.49
+		B4, 5/6 (Grilled/boiled/canned, cooked)	173.18
+		B5, 5/6 (Grilled/boiled/canned, cooked)	265.46
+		B1, 3/4 (Grilled/boiled/canned, cooked)	19.63
+		B2, 3/4 (Grilled/boiled/canned, cooked)	44.18
+		B3, 3/4 (Grilled/boiled/canned, cooked)	56.75
+		B4, 3/4 (Grilled/boiled/canned, cooked)	86.59
+		B5, 3/4 (Grilled/boiled/canned, cooked)	132.73
+		Canned Tuna/ Sardine 	100.00
+7.2	Fish Fried 	Side B	
+		B1,5 /6 (Fried fish, cooked)	33.38
+		B2, 5 / 6 (Fried fish, cooked)	75.10
+		B3, 5/6 (Fried Fish, cooked)	96.47
+		B4, 5/6 (Fried Fish, cooked)	147.20
+		B5, 5/6 (Fried Fish, cooked)	225.64
+		B1,3/ 4 (Fried fish, cooked)	16.69
+		B2, 3/ 4 (Fried fish, cooked)	37.55
+		B3, 3/ 4 (Fried Fish, cooked)	48.23
+		B4, 3/ 4 (Fried Fish, cooked)	73.60
+		B5, 3/ 4 (Fried Fish, cooked)	112.82
+7.3.1	Seafood-Grilled/Boiled/Canned /Raw  " Shrimp"	Shrimp: 1 medium	
+		 Seafood, fresh, Shrimp: 1 medium	13.00
+7.3.2	Seafood-Grilled/Boiled/Canned /Raw  " Calamari"	Calamari: 1 medium	
+		Seafood, fresh, Calamari: 1 medium	18.00
+7.3.3	Seafood-Grilled/Boiled/Canned /Raw  " Crab"	Crab stick: 1 stick	
+		Seafood, fresh, Crab: 1 medium	33.00
+7.4.1	Seafood-Fried "Shrimp"	Shrimp: 1 medium	
+		 Seafood, fresh, Shrimp: 1 medium	13.00
+7.4.2	Seafood-Fried "Calamari"	Calamari: 1 medium	
+		Seafood, fresh, Calamari: 1 medium	18.00
+7.4.3	Seafood-Fried "Crab"	Crab stick: 1 stick	
+		Seafood, fresh, Crab: 1 medium	33.00
+8.1	Beans, Chickpeas, Fava Beans, Lentils 	Side A (Beans, Chickpeas, Fava Beans, Lentils, density=0.78)	
+		A1 (Beans, Chickpeas, Fava Beans, Lentils)	3.45
+		A2 (Beans, Chickpeas, Fava Beans, Lentils)	10.35
+		A3 (Beans, Chickpeas, Fava Beans, Lentils)	12.35
+		A4 (Beans, Chickpeas, Fava Beans, Lentils)	62.09
+		A5 (Beans, Chickpeas, Fava Beans, Lentils)	72.43
+		A6 (Beans, Chickpeas, Fava Beans, Lentils)	186.26
+		A7 (Beans, Chickpeas, Fava Beans, Lentils)	31.04
+		A8 (Beans, Chickpeas, Fava Beans, Lentils)	227.65
+		A9 (Beans, Chickpeas, Fava Beans, Lentils)	248.35
+		A10 (Beans, Chickpeas, Fava Beans, Lentils)	124.17
+		A11 (Beans, Chickpeas, Fava Beans, Lentils)	124.17
+		A12 (Beans, Chickpeas, Fava Beans, Lentils)	51.74
+		A13 (Beans, Chickpeas, Fava Beans, Lentils)	248.35
+		A14 (Beans, Chickpeas, Fava Beans, Lentils)	370.86
+		A15 (Beans, Chickpeas, Fava Beans, Lentils)	331.13
+		A16 (Beans, Chickpeas, Fava Beans, Lentils)	-1.0
+8.2	Salted roasted/Nuts/ Seeds	Side A (Salted roasted/Nuts/ Seeds, Density=0.5)	
+		A1 (Salted roasted/Nuts/ Seeds)	2.36
+		A2  (Salted roasted/Nuts/ Seeds)	5.09
+		A3 (Salted roasted/Nuts/ Seeds)	7.59
+		A4 (Salted roasted/Nuts/ Seeds)	42.53
+		A5 (Salted roasted/Nuts/ Seeds)	49.61
+		A6 (Salted roasted/Nuts/ Seeds)	127.58
+		A7 (Salted roasted/Nuts/ Seeds)	21.26
+		A8 (Salted roasted/Nuts/ Seeds)	155.93
+		A9 (Salted roasted/Nuts/ Seeds)	170.10
+		A10 (Salted roasted/Nuts/ Seeds)	85.05
+		A11 (Salted roasted/Nuts/ Seeds)	85.05
+		A12 (Salted roasted/Nuts/ Seeds)	35.44
+		A13 (Salted roasted/Nuts/ Seeds)	170.10
+		A14 (Salted roasted/Nuts/ Seeds)	254.02
+		A15 (Salted roasted/Nuts/ Seeds)	226.80
+		A16 (Salted roasted/Nuts/ Seeds)	85.05
+8.3	Unsalted raw Nuts/ Seeds	Side A (Unsalted raw Nuts/ Seeds)	
+		A1 (Unsalted raw Nuts/ Seeds)	2.36
+		A2 (Unsalted raw Nuts/ Seeds)	5.09
+		A3 (Unsalted raw Nuts/ Seeds)	7.59
+		A4 (Unsalted raw Nuts/ Seeds)	42.53
+		A5 (Unsalted raw Nuts/ Seeds)	49.61
+		A6 (Unsalted raw Nuts/ Seeds)	127.58
+		A7 (Unsalted raw Nuts/ Seeds)	21.26
+		A8 (Unsalted raw Nuts/ Seeds)	155.93
+		A9 (Unsalted raw Nuts/ Seeds)	170.10
+		A10 (Unsalted raw Nuts/ Seeds)	85.05
+		A11 (Unsalted raw Nuts/ Seeds)	85.05
+		A12 (Unsalted raw Nuts/ Seeds)	35.44
+		A13 (Unsalted raw Nuts/ Seeds)	170.10
+		A14 (Unsalted raw Nuts/ Seeds)	254.02
+		A15 (Unsalted raw Nuts/ Seeds)	226.80
+		A16 (Unsalted raw Nuts/ Seeds)	85.05
+8.4	Nut butters (peanut butter, almond butter)	Side A (peanut butter, almond butter, density= 1.1)	
+		A1 (Nut butters)	5.20
+		A2 (Nut butters)	11.19
+		A3 (Nut butters)	16.69
+		A4 (Nut butters)	93.56
+8.5	Falafel (fried)	1 falafel piece	
+		1 falafel piece	22.50
+9.1	Al Harees/ Madhrooba	Side A (Al Harees/ Madhrooba, density= 0.9)	
+		A1 (Al Harees/ Madhrooba)	4.25
+		A2 (Al Harees/ Madhrooba)	9.16
+		A3 (Al Harees/ Madhrooba)	13.66
+		A4 (Al Harees/ Madhrooba)	76.55
+		A5 (Al Harees/ Madhrooba)	89.30
+		A6 (Al Harees/ Madhrooba)	229.64
+		A7 (Al Harees/ Madhrooba)	38.27
+		A8 (Al Harees/ Madhrooba)	280.67
+		A9 (Al Harees/ Madhrooba)	306.18
+		A10 (Al Harees/ Madhrooba)	153.09
+		A11 (Al Harees/ Madhrooba)	153.09
+		A12 (Al Harees/ Madhrooba)	63.79
+		A13 (Al Harees/ Madhrooba)	306.18
+		A14 (Al Harees/ Madhrooba)	457.23
+		A15 (Al Harees/ Madhrooba)	408.24
+		A16 (Al Harees/ Madhrooba)	153.09
+9.2	Thareed	Side A (Thareed, Density= 0.8)	
+		A1 (thareed)	3.78
+		A2 (thareed)	8.14
+		A3 (thareed)	12.14
+		A4 (thareed)	68.04
+		A5 (thareed)	79.38
+		A6 (thareed)	204.12
+		A7 (thareed)	34.02
+		A8 (thareed)	249.48
+		A9 (thareed)	272.16
+		A10 (thareed)	136.08
+		A11 (thareed)	136.08
+		A12 (thareed)	56.70
+		A13 (thareed)	272.16
+		A14 (thareed)	406.43
+		A15 (thareed)	362.88
+		A16 (thareed)	136.08
+9.3	Balaleet	Side A (Balaleet, Density= 0.75)	
+		A1 (Balaleet)	3.54
+		A2 (Balaleet)	7.63
+		A3 (Balaleet)	11.38
+		A4 (Balaleet)	63.79
+		A5 (Balaleet)	74.42
+		A6 (Balaleet)	191.36
+		A7 (Balaleet)	31.89
+		A8 (Balaleet)	233.89
+		A9 (Balaleet)	255.15
+		A10 (Balaleet)	127.58
+		A11 (Balaleet)	127.58
+		A12 (Balaleet)	53.16
+		A13 (Balaleet)	255.15
+		A14 (Balaleet)	381.02
+		A15 (Balaleet)	340.20
+		A16 (Balaleet)	127.58
+9.4	Machboos/ Biryani/ 	Side A (Machboos/ biryani)	
+		A1 (Machboos/ biryani)	3.54
+		A2 (Machboos/ biryani)	7.63
+		A3 (Machboos/ biryani)	11.38
+		A4 (Machboos/ biryani)	63.79
+		A5 (Machboos/ biryani)	74.42
+		A6 (Machboos/ biryani)	191.36
+		A7 (Machboos/ biryani)	31.89
+		A8 (Machboos/ biryani)	233.89
+		A9 (Machboos/ biryani)	255.15
+		A10 (Machboos/ biryani)	127.58
+		A11 (Machboos/ biryani)	127.58
+		A12 (Machboos/ biryani)	53.16
+		A13 (Machboos/ biryani)	255.15
+		A14 (Machboos/ biryani)	381.02
+		A15 (Machboos/ biryani)	340.20
+		A16 (Machboos/ biryani)	127.58
+9.5	Rice Muhammar or Baranyoosh**	Side A (Rice Muhammar/ Baranyoosh)	
+		A1 (Rice Muhammar/ Baranyoosh)	3.54
+		A2 (Rice Muhammar/ Baranyoosh)	7.63
+		A3 (Rice Muhammar/ Baranyoosh)	11.38
+		A4 (Rice Muhammar/ Baranyoosh)	63.79
+		A5 (Rice Muhammar/ Baranyoosh)	74.42
+		A6 (Rice Muhammar/ Baranyoosh)	191.36
+		A7 (Rice Muhammar/ Baranyoosh)	31.89
+		A8 (Rice Muhammar/ Baranyoosh)	233.89
+		A9 (Rice Muhammar/ Baranyoosh)	255.15
+		A10 (Rice Muhammar/ Baranyoosh)	127.58
+		A11 (Rice Muhammar/ Baranyoosh)	127.58
+		A12 (Rice Muhammar/ Baranyoosh)	53.16
+		A13 (Rice Muhammar/ Baranyoosh)	255.15
+		A14 (Rice Muhammar/ Baranyoosh)	381.02
+		A15 (Rice Muhammar/ Baranyoosh)	340.20
+		A16 (Rice Muhammar/ Baranyoosh)	127.58
+9.6	Saloona/ Stews	Side A (Saloona/Stews, Density= 1.0 )	
+		A2 (Saloona/ Stews)	4.73
+		A3 (Saloona/ Stews)	10.18
+		A4 (Saloona/ Stews)	15.18
+		A5 (Saloona/ Stews)	85.05
+		A6 (Saloona/ Stews)	99.23
+		A7 (Saloona/ Stews)	255.15
+		A8 (Saloona/ Stews)	42.53
+		A9 (Saloona/ Stews)	311.85
+		A10 (Saloona/ Stews)	340.20
+		A11 (Saloona/ Stews)	170.10
+		A12 (Saloona/ Stews)	170.10
+		A13 (Saloona/ Stews)	70.88
+		A14 (Saloona/ Stews)	340.20
+		A15 (Saloona/ Stews)	508.03
+		A16 (Saloona/ Stews)	453.60
+9.7	Stuffed vegetable dishes (kossa, warak, 3inad, malfoof)	1 piece Zucchini/ Eggplants/ Side A Zucchini/ Eggplants,	
+		Zucchini/ Eggplants, cooked, 1 medium stuffed	69.00
+		A1 (stuffed vegetables)	3.45
+		A2 (stuffed vegetables)	10.35
+		A3 (stuffed vegetables)	12.35
+		A4 (stuffed vegetables)	62.09
+		A5 (stuffed vegetables)	72.43
+		A6 (stuffed vegetables)	186.26
+		A7 (stuffed vegetables)	31.04
+		A8 (stuffed vegetables)	227.65
+		A9 (stuffed vegetables)	248.35
+		A10 (stuffed vegetables)	124.17
+		A11 (stuffed vegetables)	124.17
+		A12 (stuffed vegetables)	51.74
+		A13 (stuffed vegetables)	248.35
+		A14 (stuffed vegetables)	370.86
+		A15 (stuffed vegetables)	331.13
+10.1	Khanfaroosh	1 piece	
+		1 Piece (khanfaroosh)	30.00
+10.2	Luqaimat	1 piece	
+		 1 Piece (Luqaimat)	20.00
+10.3	Muhallabiya/Rice pudding/Custard/Cream caramel   	Side A/ 1 medium container	
+		1 Medium container	180.00
+		A1 ( Muhallabiya,Rice pudding,..)	4.91
+		A2 ( Muhallabiya,Rice pudding,..)	10.58
+		A3 ( Muhallabiya,Rice pudding,..)	15.78
+		A4 ( Muhallabiya,Rice pudding,..)	88.45
+		A5 ( Muhallabiya,Rice pudding,..)	103.19
+		A6 ( Muhallabiya,Rice pudding,..)	265.36
+		A7 ( Muhallabiya,Rice pudding,..)	44.23
+		A8 ( Muhallabiya,Rice pudding,..)	324.32
+		A9 ( Muhallabiya,Rice pudding,..)	353.81
+		A10 ( Muhallabiya,Rice pudding,..)	176.90
+		A11 ( Muhallabiya,Rice pudding,..)	176.90
+		A12 ( Muhallabiya,Rice pudding,..)	73.71
+		A13 ( Muhallabiya,Rice pudding,..)	353.81
+		A14 ( Muhallabiya,Rice pudding,..)	528.35
+		A15 ( Muhallabiya,Rice pudding,..)	471.74
+		A16 ( Muhallabiya,Rice pudding,..)	-1.0
+10.4	Sago	Side A (Sago/ Aseeda/Khabees, density= 0.9)	
+		A1 (Sago/Aseeda/Khabees)	4.25
+		A2 (Sago/Aseeda/Khabees)	9.16
+		A3 (Sago/Aseeda/Khabees)	13.66
+		A4 (Sago/Aseeda/Khabees)	76.55
+		A5 (Sago/Aseeda/Khabees)	89.30
+		A6 (Sago/Aseeda/Khabees)	229.64
+		A7 (Sago/Aseeda/Khabees)	38.27
+		A8 (Sago/Aseeda/Khabees)	280.67
+		A9 (Sago/Aseeda/Khabees)	306.18
+		A10 (Sago/Aseeda/Khabees)	153.09
+		A11 (Sago/Aseeda/Khabees)	153.09
+		A12  (Sago/Aseeda/Khabees)	63.79
+		A13 (Sago/Aseeda/Khabees)	306.18
+		A14 (Sago/Aseeda/Khabees)	457.23
+		A15 (Sago/Aseeda/Khabees)	408.24
+		A16 (Sago/Aseeda/Khabees)	153.09
+10.5	Aseeda	Side A (Sago/ Aseeda/Khabees, density= 0.9)	
+		A1 (Sago/Aseeda/Khabees)	4.25
+		A2 (Sago/Aseeda/Khabees)	9.16
+		A3 (Sago/Aseeda/Khabees)	13.66
+		A4 (Sago/Aseeda/Khabees)	76.55
+		A5 (Sago/Aseeda/Khabees)	89.30
+		A6 (Sago/Aseeda/Khabees)	229.64
+		A7 (Sago/Aseeda/Khabees)	38.27
+		A8 (Sago/Aseeda/Khabees)	280.67
+		A9 (Sago/Aseeda/Khabees)	306.18
+		A10 (Sago/Aseeda/Khabees)	153.09
+		A11 (Sago/Aseeda/Khabees)	153.09
+		A12  (Sago/Aseeda/Khabees)	63.79
+		A13 (Sago/Aseeda/Khabees)	306.18
+		A14 (Sago/Aseeda/Khabees)	457.23
+		A15 (Sago/Aseeda/Khabees)	408.24
+		A16 (Sago/Aseeda/Khabees)	153.09
+10.6	khabees.	Side A	
+		A1 (Sago/Aseeda/Khabees)	4.25
+		A2 (Sago/Aseeda/Khabees)	9.16
+		A3 (Sago/Aseeda/Khabees)	13.66
+		A4 (Sago/Aseeda/Khabees)	76.55
+		A5 (Sago/Aseeda/Khabees)	89.30
+		A6 (Sago/Aseeda/Khabees)	229.64
+		A7 (Sago/Aseeda/Khabees)	38.27
+		A8 (Sago/Aseeda/Khabees)	280.67
+		A9 (Sago/Aseeda/Khabees)	306.18
+		A10 (Sago/Aseeda/Khabees)	153.09
+		A11 (Sago/Aseeda/Khabees)	153.09
+		A12  (Sago/Aseeda/Khabees)	63.79
+		A13 (Sago/Aseeda/Khabees)	306.18
+		A14 (Sago/Aseeda/Khabees)	457.23
+		A15 (Sago/Aseeda/Khabees)	408.24
+		A16 (Sago/Aseeda/Khabees)	153.09
+10.7	Other Arabic sweets (kunefe/baklawa…	Side B (Arabic Sweet)	
+		B1  (Arabic Sweet)	58.90
+		B2  (Arabic Sweet)	132.54
+		B3  (Arabic Sweet)	170.24
+		B4  (Arabic Sweet)	259.77
+		B5  (Arabic Sweet)	265.46
+11.1	Cakes and pastries (Homemade)	Side B (Cakes and pastries)	
+		B1,6 (Sponge cake, Plain cake, Homemade) 	19.63
+		B2,6 (Sponge cake, Plain cake, Homemade) 	44.18
+		B3,6 (Sponge cake, Plain cake) 	56.75
+		B4,6 (Sponge cake, Plain cake) 	86.59
+		B5,6 (Sponge cake, Plain cake) 	132.73
+		B1,10 (cheese cakes, Cookies, Brownies) 	44.18
+		B2,10 (cheese cakes, Cookies, Brownies) 	99.40
+		B3,10 (cheese cakes, Cookies, Brownies) 	127.68
+		B4,10 (cheese cakes, Cookies, Brownies) 	194.83
+		B5,10 (cheese cakes, Cookies, Brownies) 	298.65
+11.1.1	Cakes and pastries (Industrial)	Side B	
+		B1,6 (Sponge cake, Plain cake) 	19.63
+		B2,6 (Sponge cake, Plain cake) 	44.18
+		B3,6 (Sponge cake, Plain cake) 	56.75
+		B4,6 (Sponge cake, Plain cake) 	86.59
+		B5,6 (Sponge cake, Plain cake) 	132.73
+		B1,10 (cheese cakes, Cookies, Brownies) 	44.18
+		B2,10 (cheese cakes, Cookies, Brownies) 	99.40
+		B3,10 (cheese cakes, Cookies, Brownies) 	127.68
+		B4,10 (cheese cakes, Cookies, Brownies) 	194.83
+		B5,10 (cheese cakes, Cookies, Brownies) 	298.65
+11.2	Croissant (Homemade)	1 Large/1 small	
+		1 Large croissant	70.00
+		1 Small croissant	30.00
+11.2.1	Croissant (industrial)	1 Large/1 small	
+		1 Large croissant	70.00
+		1 Small croissant	30.00
+11.3	Chocolate 	1 medium bar/ Side B	
+		 B1 (Chocolate)	25.53
+		 B2 (Chocolate)	57.43
+		 B3 (Chocolate)	73.77
+		 B4 (Chocolate)	112.57
+		 B5 (Chocolate)	172.55
+11.4.1	Ice cream ( stick)	1 stick	
+		1 stick Ice cream	80.00
+11.4.2	Ice cream ( scope)	1 scoop	
+		1 scoop Ice cream	120.00
+11.5	Doughnuts 	1 medium	
+		1 medium doughnut	85.00
+11.6	Energy bars	1 medium bar/ Side B	
+		1 medium energy bar	45.00
+12.1	Water 	Side A/ 1 Liter	
+		1 liter of water	1000.00
+		A6 (water)	270.00
+12.2	Fruit Juices, bottled	Side A/ 1 regular(240mL)	
+		1 regular fruit juice bottle	240.00
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.3	Karak 	Side A	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.4	Tea/ Herbal tea	Side A	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.5	Coffee/ Turkish coffee	Side A	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.6	Evaporated milk/ coffee creamer  	Side A	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.7	Arabic coffee	Side A	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.8	Soda Regular	Side A/ 1 can (330 mL)	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.9	Soda Diet	Side A/ 1 can (330 mL)	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.10	Energy drink	Side A/ 1 can (330 mL)	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+12.11	Diet energy drinks	Side A/ 1 can (330 mL)	
+		A4 (Beverages)	85.05
+		A5 (Beverages)	99.23
+		A6 (Beverages)	255.15
+		A7 (Beverages)	42.53
+		A8 (Beverages)	311.85
+		A9(Beverages)	340.20
+		A10(Beverages)	170.10
+13.1	Jam	Side A	
+		A1 (Jam,Honey, syprups)	6.62
+		A2 (Jam,Honey, syprups)	14.25
+		A3 (Jam,Honey, syprups)	21.25
+13.2	Honey, molasses, maple syrup 	Side A	
+		A1 (Jam,Honey, syprups)	6.62
+		A2 (Jam,Honey, syprups)	14.25
+		A3 (Jam,Honey, syprups)	21.25
+13.4	Halwa, rahash	Side A	
+		A1 (Halawah, Rahash)	5.20
+		A2 (Halawah, Rahash)	11.19
+		A3 (Halawah, Rahash)	16.69
+13.5	Sugar (added to drinks mainly) 	Side A	
+		A1 (Sugar)	4.02
+		A2 (Sugar)	8.65
+		A3 (Sugar)	12.90
+15.1	Butter/ghee (including added to rice/traditional dishes- not during cooking )	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+15.2	Mayonnaise, ranch dressing, 1000 thousand islands	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+15.3	Olive oil	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+15.4	Tahini	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+15.5	Vegetable oil (Sunflower oil, corn oil, canola oil) 	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+15.6	Olives	1 medium olive	
+		1 Medium olive	3.00
+16.1	Butter/animal ghee	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+16.2	Olive oil	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+16.3	Vegetable ghee	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+16.4	Vegetable oil (Sunflower oil, corn oil, canola oil)	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+16.5	Cooking cream (as part of dishes)	Side A	
+		A1 (Butter/ ghee/ oils/ Sauces)	4.35
+		A2 (Butter/ ghee/ oils/ Sauces)	9.36
+		A3 (Butter/ ghee/ oils/ Sauces)	13.96
+17.1	Ketchup, Mustard, BBQ sauce	Side A	
+		A1 (Sauces)	4.35
+		A2 (Sauces)	9.36
+		A3 (Sauces)	13.96
+17.2	Salt shaker use (at the table)	Number of shakes 	
+		1 salt shake	1.00
+17.3	Pickles 	1 M. cucumber/Side A	
+		1 Medium cucumber	50.00
