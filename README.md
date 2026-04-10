@@ -84,3 +84,22 @@ def download_participant(uid: str):
     df.to_csv(buf, index=False)
     ...
 ```
+
+### Todo
+- [ ] After `portion/day`, create a `Gram/Day` column (which will be multiplied by the stat).
+- [ ] Change `selected portion options` -> `selected portion size`
+- [ ] Change `portion options` -> `portion size options`
+- [ ] Change `portion size` -> `number of portion`
+- [ ] Change `Single selected portion (Grams)` -> `Grams/Portion`
+- [ ] Create a new row that calculates the summation of the total section's stats above it (As by section we mean the first number in each ID)
+- [ ] Create a new row at the end of the sheet that calcualtes the summation of all states above.
+- [ ] Create a new row that has the percentage of contributation of each section in the above (from the total stats calculated)
+- [ ] Create a duplicate row of 10.3 into 10.3.1 (For homemade) and 10.3.2 (For industrial).
+- [ ] `Offal/Organ meat (liver, heart, brain, etc.)` has nothing in portions.
+- [ ] Fix: `A16 beans: 132.68` - `A16 rice pudding: 170.1`
+- [ ] Add one large can (`330 ml`) or small can (`270 ml`) for `12.8 - 12.9 - 12.10 - 12.11` which are sodas.
+- [ ] `Never` option means everything 0 in that row
+- [ ] Create an "Ultra-processed" JSON file to mark what files need to be ultraprocessed.
+- [ ] In the frontend - Change the column "Portion option" to "Portion size"
+- [ ] In the frontend - Change the column "Portion size" to "Number of Portions"
+- [ ] In the frontend - Change the column "Count" to "Frequency Count"
