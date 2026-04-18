@@ -3,10 +3,10 @@ import io
 import xlsxwriter
 import math
 
-food_stats = json.load(open("food_stats.json"))
-portions = json.load(open("portions.json"))
+food_stats = json.load(open("food_stats.json", encoding='utf-8'))
+portions = json.load(open("portions.json", encoding='utf-8'))
 
-ultraprocessed_foods = json.load(open("ultraprocessed_foods.json"))
+ultraprocessed_foods = json.load(open("ultraprocessed_foods.json", encoding='utf-8'))
 ultraprocessed_foods_ids = [id for id, data in ultraprocessed_foods.items() if data['ultraprocessed']]
 
 FREQ_MAP = {

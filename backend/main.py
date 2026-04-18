@@ -24,7 +24,7 @@ app.add_middleware(
 DATA_DIR = "./data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
-FOOD_DATA = json.load(open('portions.json'))
+FOOD_DATA = json.load(open('portions.json', encoding='utf-8'))
 FREQUENCY_OPTIONS = ["", "Per day", "Per week", "Per Month", "Never"]
 
 def build_base_rows():
@@ -51,7 +51,7 @@ def load_or_create(uid: str) -> list[dict]:
     if not os.path.exists(path):
         return base
     try:
-        df = pd.read_csv(path).fillna("")
+        df = pd.read_csv(path, encoding='utf-8').fillna("")
         saved = {r["id"]: r for r in df.to_dict("records")}
         for row in base:
             if row["id"] in saved:
@@ -75,7 +75,7 @@ def rows_to_df(rows: list[dict]) -> pd.DataFrame:
     return pd.DataFrame([{
         "id": r["id"],
         "Name": r["name"],
-        "Portion Size Options": json.dumps(r["portion_size_options"]),
+        "Portion Size Options": json.dumps(r["portion_size_options"], ensure_ascii=False),
         "Section": r["section"],
         "Selected Portion Size": r["selected_portion_size"],
         "Number of Portions": r["number_of_portions"],
@@ -114,7 +114,7 @@ def get_participant(uid: str):
 def save_participant(uid: str, payload: SavePayload):
     rows = [r.model_dump() for r in payload.rows]
     df = rows_to_df(rows)
-    df.to_csv(csv_path(uid), index=False)
+    df.to_csv(csv_path(uid), index=False, encoding='utf-8')
     return {"ok": True}
 
 @app.delete("/participants/{uid}")
@@ -132,7 +132,7 @@ def download_participant(uid: str):
 
     return StreamingResponse(
         iter([buf.getvalue()]),
-        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; charset=utf-8",
         headers={"Content-Disposition": f'attachment; filename="{uid}_FFQ.xlsx"'}
     )
 
