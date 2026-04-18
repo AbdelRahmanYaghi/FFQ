@@ -69,8 +69,8 @@ npm run dev
 
 ## Building the project
 
-You can build the backend via `pyinstaller` while being in the `backend` directory.
-And you can build the frontend by simply run `npm run build` in the `frontend` directory.
+You can build the backend via `uv run pyinstaller --onefile main.py` while being in the `backend` directory. And you can find the executable in `backend/dist`. 
+And you can build the frontend by simply run `npm run build` in the `frontend` directory. And you can find the resulting HTML file in `frontend/dist`.
 
 ### Todo
 - [x] After `portion/day`, create a `Gram/Day` column (which will be multiplied by the stat).

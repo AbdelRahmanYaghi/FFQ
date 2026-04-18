@@ -8,6 +8,7 @@ dependencies = [
     "fastapi>=0.135.3",
     "pandas>=3.0.2",
     "pydantic>=2.12.5",
+    "pyinstaller>=6.19.0",
     "python-multipart>=0.0.26",
     "uvicorn>=0.44.0",
     "xlsxwriter>=3.2.9",

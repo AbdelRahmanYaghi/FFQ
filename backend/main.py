@@ -99,7 +99,6 @@ class FoodRow(BaseModel):
 
 class SavePayload(BaseModel):
     rows: list[FoodRow]
-
 # ── Routes ────────────────────────────────────────────────────────────────────
 @app.get("/participants")
 def list_participants():
@@ -148,6 +147,6 @@ def get_meta():
     } for food_code, food_details in FOOD_DATA     
     ]
 
-# if __name__ == "__main__":
-#     import uvicorn
-#     uvicorn.run(app, host="127.0.0.1", port=8000, reload=True)
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)
