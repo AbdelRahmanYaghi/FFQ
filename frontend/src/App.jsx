@@ -148,10 +148,10 @@ function FoodTable({ rows, onUpdate }) {
           <tr>
             <th className="col-id">ID</th>
             <th className="col-name">Food Item</th>
-            <th className="col-poption">Portion Option</th>
-            <th className="col-psize">Portion Size</th>
+            <th className="col-poption">Portion Size</th>
+            <th className="col-psize">Number of portions</th>
             <th className="col-freq">Frequency</th>
-            <th className="col-fcount">Count</th>
+            <th className="col-fcount">Frequency Count</th>
           </tr>
         </thead>
         <tbody>
@@ -165,10 +165,10 @@ function FoodTable({ rows, onUpdate }) {
               <td className="col-poption">
                 <select
                   className="cell-select"
-                  value={row.selected_portion_option}
-                  onChange={e => handleChange(idx, 'selected_portion_option', e.target.value)}
+                  value={row.selected_portion_size}
+                  onChange={e => handleChange(idx, 'selected_portion_size', e.target.value)}
                 >
-                  {row.portion_options.map(o => <option key={o} value={o}>{o || '—'}</option>)}
+                  {row.portion_size_options.map(o => <option key={o} value={o}>{o || '—'}</option>)}
                 </select>
               </td>
               <td className="col-psize">
@@ -176,8 +176,8 @@ function FoodTable({ rows, onUpdate }) {
                   type="number"
                   className="cell-number"
                   min={0}
-                  value={row.portion_size || ''}
-                  onChange={e => handleChange(idx, 'portion_size', parseFloat(e.target.value) || 0)}
+                  value={row.number_of_portions || ''}
+                  onChange={e => handleChange(idx, 'number_of_portions', parseFloat(e.target.value) || 0)}
                 />
               </td>
               <td className="col-freq">

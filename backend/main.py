@@ -8,7 +8,9 @@ from typing import Optional
 import json
 from pydantic import BaseModel
 import traceback
-from processes_before_download import process_df_before_download
+from processes_before_download import process_df_before_download, rows_to_workbook
+import xlsxwriter
+import math
 
 app = FastAPI(title="FFQ API")
 
@@ -31,10 +33,10 @@ def build_base_rows():
         rows.append({
             "id": food_code,
             "name": food_details['name'],
-            "portion_options": list(food_details['portions'].keys()) + [""],
+            "portion_size_options": list(food_details['portions'].keys()) + [""],
             "section": food_code.split('.')[0],
-            "selected_portion_option": "",
-            "portion_size": 0,
+            "selected_portion_size": "",
+            "number_of_portions": 0,
             "frequency": "",
             "frequency_count": 0,
         })
@@ -54,14 +56,14 @@ def load_or_create(uid: str) -> list[dict]:
         for row in base:
             if row["id"] in saved:
                 s = saved[row["id"]]
-                if isinstance(s.get("portion_options"), str):
-                    row["portion_options"] = json.loads(s.get("portion_options")) 
-                elif isinstance(s.get("portion_options"), list):
-                    row["portion_options"] = s.get("portion_options")
+                if isinstance(s.get("Portion Size Options"), str):
+                    row["portion_size_options"] = json.loads(s.get("Portion Size Options")) 
+                elif isinstance(s.get("Portion Size Options"), list):
+                    row["portion_size_options"] = s.get("Portion Size Options")
                 else:
-                    row["portion_options"] = []
-                row["selected_portion_option"] = str(s.get("selected_portion_option", "") or "")
-                row["portion_size"]     = float(s.get("Portion Size", 0) or 0)
+                    row["portion_size_options"] = []
+                row["selected_portion_size"] = str(s.get("Selected Portion Size", "") or "")
+                row["number_of_portions"]     = float(s.get("Number of Portions", 0) or 0)
                 row["frequency"]        = str(s.get("Frequency", ""))
                 row["frequency_count"]  = float(s.get("Frequency Count", 0) or 0)
         return base
@@ -73,10 +75,10 @@ def rows_to_df(rows: list[dict]) -> pd.DataFrame:
     return pd.DataFrame([{
         "id": r["id"],
         "Name": r["name"],
-        "portion_options": json.dumps(r["portion_options"]),
+        "Portion Size Options": json.dumps(r["portion_size_options"]),
         "Section": r["section"],
-        "selected_portion_option": r["selected_portion_option"],
-        "Portion Size": r["portion_size"],
+        "Selected Portion Size": r["selected_portion_size"],
+        "Number of Portions": r["number_of_portions"],
         "Frequency": r["frequency"],
         "Frequency Count": r["frequency_count"],
     } for r in rows])
@@ -88,10 +90,10 @@ def special_rows_to_df(rows: list[dict]) -> pd.DataFrame:
 class FoodRow(BaseModel):
     id: str
     name: str
-    portion_options: list[str]
+    portion_size_options: list[str]
     section: str
-    selected_portion_option: str = ""
-    portion_size: float = 0
+    selected_portion_size: str = ""
+    number_of_portions: float = 0
     frequency: str = ""
     frequency_count: float = 0
 
@@ -126,14 +128,12 @@ def delete_participant(uid: str):
 def download_participant(uid: str):
     rows = load_or_create(uid)
     process_df_before_download(rows)
-    df = special_rows_to_df(rows)
-    buf = io.StringIO()
-    df.to_csv(buf, index=False)
-    buf.seek(0)
+    workbook, buf = rows_to_workbook(rows)
+
     return StreamingResponse(
         iter([buf.getvalue()]),
-        media_type="text/csv",
-        headers={"Content-Disposition": f'attachment; filename="{uid}_FFQ.csv"'}
+        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        headers={"Content-Disposition": f'attachment; filename="{uid}_FFQ.xlsx"'}
     )
 
 @app.get("/meta")
@@ -143,7 +143,11 @@ def get_meta():
         "code": food_code,
         "food name": food_details['name'],
         "frequency_options": FREQUENCY_OPTIONS,
-        "portion options": food_details['portions'],
+        "Portion Size Options": food_details['portions'],
         "section": food_code.split('.')[0]
     } for food_code, food_details in FOOD_DATA     
     ]
+
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="127.0.0.1", port=8000, reload=True)

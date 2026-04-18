@@ -600,7 +600,25 @@
     },
     "6.7": {
         "name": "Offal/Organ meat (liver, heart, brain, etc.)",
-        "portions": {}
+        "portions": {
+            "A1 (Offal/Organ meat)": "5.20",
+            "A2 (Offal/Organ meat)": "11.19",
+            "A3 (Offal/Organ meat)": "16.69",
+            "A4 (Offal/Organ meat)": "93.56",
+            "A5 (Offal/Organ meat)": "109.15",
+            "A6 (Offal/Organ meat)": "280.67",
+            "A7 (Offal/Organ meat)": "46.78",
+            "A8 (Offal/Organ meat)": "343.04",
+            "A9 (Offal/Organ meat)": "374.22",
+            "A10 (Offal/Organ meat)": "187.11",
+            "A11 (Offal/Organ meat)": "187.11",
+            "A12 (Offal/Organ meat)": "77.96",
+            "A13 (Offal/Organ meat)": "374.22",
+            "A14 (Offal/Organ meat)": "558.84",
+            "A15 (Offal/Organ meat)": "498.96",
+            "A16 (Offal/Organ meat)": "187.11",
+            "A17 (Offal/Organ meat)": "124.74"
+        }
     },
     "6.8": {
         "name": "Processed meat (hot dog/ salami/ mortadella)",
@@ -695,7 +713,7 @@
             "A13 (Beans, Chickpeas, Fava Beans, Lentils)": "248.35",
             "A14 (Beans, Chickpeas, Fava Beans, Lentils)": "370.86",
             "A15 (Beans, Chickpeas, Fava Beans, Lentils)": "331.13",
-            "A16 (Beans, Chickpeas, Fava Beans, Lentils)": "-1.0"
+            "A16 (Beans, Chickpeas, Fava Beans, Lentils)": "132.68"
         }
     },
     "8.2": {
@@ -913,8 +931,8 @@
             " 1 Piece (Luqaimat)": "20.00"
         }
     },
-    "10.3": {
-        "name": "Muhallabiya/Rice pudding/Custard/Cream caramel   ",
+    "10.3.1": {
+        "name": "Muhallabiya/Rice pudding/Custard/Cream caramel (Homemade)",
         "portions": {
             "1 Medium container": "180.00",
             "A1 ( Muhallabiya,Rice pudding,..)": "4.91",
@@ -932,7 +950,29 @@
             "A13 ( Muhallabiya,Rice pudding,..)": "353.81",
             "A14 ( Muhallabiya,Rice pudding,..)": "528.35",
             "A15 ( Muhallabiya,Rice pudding,..)": "471.74",
-            "A16 ( Muhallabiya,Rice pudding,..)": "-1.0"
+            "A16 ( Muhallabiya,Rice pudding,..)": "170.1"
+        }
+    },
+    "10.3.2": {
+        "name": "Muhallabiya/Rice pudding/Custard/Cream caramel (Industrial)",
+        "portions": {
+            "1 Medium container": "180.00",
+            "A1 ( Muhallabiya,Rice pudding,..)": "4.91",
+            "A2 ( Muhallabiya,Rice pudding,..)": "10.58",
+            "A3 ( Muhallabiya,Rice pudding,..)": "15.78",
+            "A4 ( Muhallabiya,Rice pudding,..)": "88.45",
+            "A5 ( Muhallabiya,Rice pudding,..)": "103.19",
+            "A6 ( Muhallabiya,Rice pudding,..)": "265.36",
+            "A7 ( Muhallabiya,Rice pudding,..)": "44.23",
+            "A8 ( Muhallabiya,Rice pudding,..)": "324.32",
+            "A9 ( Muhallabiya,Rice pudding,..)": "353.81",
+            "A10 ( Muhallabiya,Rice pudding,..)": "176.90",
+            "A11 ( Muhallabiya,Rice pudding,..)": "176.90",
+            "A12 ( Muhallabiya,Rice pudding,..)": "73.71",
+            "A13 ( Muhallabiya,Rice pudding,..)": "353.81",
+            "A14 ( Muhallabiya,Rice pudding,..)": "528.35",
+            "A15 ( Muhallabiya,Rice pudding,..)": "471.74",
+            "A16 ( Muhallabiya,Rice pudding,..)": "170.1"
         }
     },
     "10.4": {
@@ -1169,6 +1209,8 @@
     "12.8": {
         "name": "Soda Regular",
         "portions": {
+            "Small can": "270",
+            "Large can": "330",
             "A4 (Beverages)": "85.05",
             "A5 (Beverages)": "99.23",
             "A6 (Beverages)": "255.15",
@@ -1181,6 +1223,8 @@
     "12.9": {
         "name": "Soda Diet",
         "portions": {
+            "Small can": "270",
+            "Large can": "330",
             "A4 (Beverages)": "85.05",
             "A5 (Beverages)": "99.23",
             "A6 (Beverages)": "255.15",
@@ -1193,6 +1237,8 @@
     "12.10": {
         "name": "Energy drink",
         "portions": {
+            "Small can": "270",
+            "Large can": "330",
             "A4 (Beverages)": "85.05",
             "A5 (Beverages)": "99.23",
             "A6 (Beverages)": "255.15",
@@ -1205,6 +1251,8 @@
     "12.11": {
         "name": "Diet energy drinks",
         "portions": {
+            "Small can": "270",
+            "Large can": "330",
             "A4 (Beverages)": "85.05",
             "A5 (Beverages)": "99.23",
             "A6 (Beverages)": "255.15",
