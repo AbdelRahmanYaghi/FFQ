@@ -24,6 +24,8 @@ ffq/
 
 ## Quick Start
 
+Incase you're accessing this project with a technical background, use the following commands to run the project.
+
 ```bash
 chmod +x start.sh
 ./start.sh
@@ -65,25 +67,10 @@ npm run dev
 - **Download CSV** — passes through `process_csv` hook on the backend before download (extend `main.py` to add calculations)
 - **CSV storage** — one file per participant in `backend/data/`
 
-## Adding CSV Processing Logic
+## Building the project
 
-In `backend/main.py`, find the `download_participant` route and extend the `# process_csv hook` section:
-
-```python
-@app.get("/participants/{uid}/download")
-def download_participant(uid: str):
-    rows = load_or_create(uid)
-    df = rows_to_df(rows)
-
-    # ── Add your calculations here ──────────────────────
-    # Example: compute daily frequency
-    # df["Daily Frequency"] = df.apply(compute_daily_freq, axis=1)
-    # ────────────────────────────────────────────────────
-
-    buf = io.StringIO()
-    df.to_csv(buf, index=False)
-    ...
-```
+You can build the backend via `pyinstaller` while being in the `backend` directory.
+And you can build the frontend by simply run `npm run build` in the `frontend` directory.
 
 ### Todo
 - [x] After `portion/day`, create a `Gram/Day` column (which will be multiplied by the stat).
